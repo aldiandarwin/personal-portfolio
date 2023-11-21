@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project | BWA CLASS EXCLUSIVE BOOTCAMP</title>
+
+        <!-- Tailwind CSS -->
+        <link rel="stylesheet" href="../dist/output.css" />
+
+        <!-- Font Google -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet" />
+
+        <script>
+            if (
+                localStorage.theme === 'dark' ||
+                (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+            ) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        </script>
+
+        <!-- Scroll Reveal JS -->
+        <script src="dist/js/scrollreveal.min.js"></script>
+    </head>
+    <body class="scrollbar">
+        <!-- Navbar Section -->
+        <header class="header-nav">
+            <nav class="container">
+                <div class="relative flex items-center justify-between">
+                    <!-- Logo -->
+                    <div class="px-4 py-6">
+                        <a href="../index.html" class="block font-semibold font-poppins text-primary">Aldian</a>
+                    </div>
+
+                    <!-- Theme Change Button -->
+                    <div class="flex">
+                        <span class="mr-2 text-sm font-poppins text-primary">Mode</span>
+                        <input type="checkbox" class="hidden" id="dark-toggle" />
+                        <label for="dark-toggle">
+                            <div class="flex h-5 w-10 cursor-pointer items-center rounded-full bg-slate-400 p-0.5">
+                                <div class="w-4 h-4 transition duration-300 bg-white rounded-full toggle-circle">
+                                    <span
+                                        class="flex items-center justify-center text-base text-yellow-500 dark:text-darkTheme">
+                                        <i class="bx bxs-sun" id="iconNow"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Detail Section -->
+        <section class="dark-mode py-28">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav class="nav-detail" aria-label="breadcrumb">
+                    <ol class="flex px-4 space-x-1 text-sm rounded-md">
+                        <li><a href="../index.html" class="hover:font-medium dark:text-iconsSub">Home</a></li>
+                        <li><span class="text-gray-400">/ E-Learning Bootcamp</span></li>
+                    </ol>
+                </nav>
+
+                <!-- Detail Description -->
+                <div class="detail-desc">
+                    <h2 class="text-detail">[Private] E-Learning Exclusive Bootcamp</h2>
+                    <img
+                        src="../dist/img/project.png"
+                        alt="semina-project"
+                        width="50%"
+                        class="mx-auto mb-8 rounded-md" />
+                    <p class="mb-3 text-detail-desc">
+                        E-Learning System is a website that processes daily learning education Tech for each member in
+                        BWA who want to upgrade IT skills. This project is a part of full time on site in Starbucks PVJ,
+                        developed by a project team for 3 months from <b>march to August 2023</b>.
+                    </p>
+                    <div class="flex mb-8">
+                        <span class="mr-2 text-detail-desc">Developed with :</span>
+                        <div class="flex">
+                            <div class="portfolio-badge mr-1 border-[#777BB4]">LARAVEL</div>
+                            <div class="portfolio-badge mr-1 border-[#F7DF1E]">VUE</div>
+                            <div class="portfolio-badge border-[#4479A1]">ORACLE</div>
+                        </div>
+                    </div>
+                    <span class="font-semibold underline text-detail-desc">Detail Project</span>
+                    <p class="mt-2 text-detail-desc">
+                        Sorry, this project cannot display project details due to sensitive data belonging From
+                        Buildwithangga Team
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="pb-10 bg-primary pt-14">
+            <div class="container">
+                <div class="w-full">
+                    <span class="ml-4 text-sm text-icons"
+                        >&#169; 2023 <span class="font-semibold">Aldian</span>. All Rights Reserved</span
+                    >
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="../dist/js/main.js"></script>
+    </body>
+</html>
