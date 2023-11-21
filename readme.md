@@ -60,3 +60,5 @@ Type: Website
 Feel free to reach out if you have any questions or collaboration opportunities.
 
 Looking forward to connecting with you!
+
+![mockup4.png](https://github.com/aldiandarwin/personal-portfolio/assets/70283015/0565d31b-2126-44d7-8f25-ceabf47cbec0)
